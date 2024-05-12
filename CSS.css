@@ -67,6 +67,11 @@
   .aboutme{
     text-align: left;
       color: white;
+      
+  }
+
+  .aboutrightside{
+    margin-top: 12%;
   }
   
 
@@ -77,6 +82,9 @@
 
   .me2{
     margin-top: 10%;
+    box-shadow:0 0 25px orange,
+               0 0 50px orange;
+    border-radius: 100%;
   }
 
   .social{
