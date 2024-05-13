@@ -4,7 +4,8 @@
 .topnav {
   overflow: hidden;
   background-color: #333;
-  margin-bottom: 6%;
+  position: fixed;
+  width: 100%;
 }
 
 .topnav a {
@@ -31,9 +32,12 @@
   }
 
 /*------------------------------------------Home--------------------------------------------*/
+.me1{
+  margin-top: 14%;
+}
   .hometext{
     font-family: "Poppins";
-    margin-top: 23%;
+    margin-top: 37%;
     text-align: left;
     font-weight: 700; 
   }
@@ -81,31 +85,45 @@
   }
 
   .me2{
-    margin-top: 10%;
+    margin-top: 20%;
     box-shadow:0 0 25px orange,
                0 0 50px orange;
-    border-radius: 100%;
+    border-radius: 50%;
   }
 
   .social{
     text-align: center;
   }
 
-  /*------------------------------------------Experience--------------------------------------------*/
-
-.banklogo{
-  margin-left: 35%;
-}
-h3, .con{
+  /*------------------------------------------Skills--------------------------------------------*/
+.sk{
   text-align: center;
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
+.three h5{
+  text-align: center;
+}
+
 
   /*------------------------------------------Projects--------------------------------------------*/
+  .four{
+    background-color: black;
+  }
+
+  .four h3{
+    color: white;
+    text-align: center;
+  }
 .p1, .p2, .p3{
   margin-top: 5%;
+  margin-left:8%;
 }
 
+.pr-text{
+  margin-left:8%;
+  
+}
 
 
 
@@ -113,23 +131,46 @@ h3, .con{
 
 
 /*------------------------------------------Contact--------------------------------------------*/
+.five{
+  margin-top: 20%;
+}
 .con{
   text-align: center;
   margin-top: 5%;
 }
+form{
+  text-align: center;
+  margin: 1rem auto;
+}
+.inputbox input,textarea{
+  border-radius: .8rem;
+  background-color: #cfd4d1;
+  font-size: 18px;
+  padding: 1em;
+  margin: 1rem 0;
+}
 
+.formbtn{
+  background-color: black;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  padding: 15px 28px;
+  font-weight: 600;
+}
 
  /*------------------------------------------Foot--------------------------------------------*/
  
  .foot{ 
   margin-top: 10%;
   text-align: center; 
-  margin-bottom: 10%;
+  
  }
 
- .foot a{
+ .foot2 a{
 
-  color:black;
+  color:white;
   text-decoration: none;
   
  }
