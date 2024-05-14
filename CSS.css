@@ -8,8 +8,8 @@
   width: 100%;
 }
 
-.topnav a {
-    float: right;
+.topnav a{
+    
     color: #f2f2f2;
     text-align: center;
     padding: 15px 16px;
@@ -17,7 +17,14 @@
     font-size: 17px;
   }
 
-.topnav a:hover,a.active {
+  .navlinks{
+    display: flex;
+    list-style: none;
+    float: right;
+  }
+
+
+.topnav a:hover,.topnav .active a {
     color: orange;
     
   }
