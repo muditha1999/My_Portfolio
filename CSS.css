@@ -17,10 +17,11 @@
     font-size: 17px;
   }
 
-  .navlinks{
+ .navlinks{
     display: flex;
     list-style: none;
     float: right;
+    padding: 15px 16px;
   }
 
 
@@ -112,9 +113,15 @@
   text-align: center;
 }
 
-li{
-  font-weight: 600;
+i{
+  font-weight: 900;
   padding: 1em;
+  text-decoration: none;
+  padding-left: 40px
+
+}
+i:before {
+  margin-right:1em
 }
 
 
