@@ -101,8 +101,13 @@
   margin-top: 10%;
   margin-bottom: 5%;
 }
-.three h5{
+.three h4{
   text-align: center;
+}
+
+li{
+  font-weight: 600;
+  padding: 1em;
 }
 
 
@@ -136,7 +141,7 @@
 }
 .con{
   text-align: center;
-  margin-top: 5%;
+  
 }
 form{
   text-align: center;
