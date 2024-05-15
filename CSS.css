@@ -39,6 +39,7 @@
     font-family:"Caveat";
   }
 
+
 /*------------------------------------------Home--------------------------------------------*/
 .me2{
   margin-top: 14%;
@@ -104,10 +105,20 @@
     text-align: center;
   }
 
+
+  .abouttext{
+    text-align: center;
+  }
   /*------------------------------------------Skills--------------------------------------------*/
+
+  .three{
+    min-height: 600px;
+    height: 600px;
+  }
+
 .sk{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 6%;
   margin-bottom: 5%;
 }
 .three h4{
@@ -118,7 +129,7 @@ i{
 
   padding: 1em;
   text-decoration: none;
-  padding-left: 40px;
+  padding-left: 35px;
 }
 
 .itemset{
@@ -135,6 +146,8 @@ i:before {
   /*------------------------------------------Projects--------------------------------------------*/
   .four{
     background-color: black;
+    min-height: 1000px;
+    height: 1000px;
   }
 
   .four h3{
@@ -150,15 +163,20 @@ i:before {
   margin-left:8%;
   
 }
-
-
-
+.figma,.portfolio{
+  margin-left: 12%;
+}
+.burger{
+  margin-left: 6%;
+}
 
 
 
 /*------------------------------------------Contact--------------------------------------------*/
 .five{
-  margin-top: 20%;
+  margin-top: 8%;
+  min-height: 550px;
+  height: 550px;
 }
 .con{
   text-align: center;
