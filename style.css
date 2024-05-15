@@ -109,6 +109,21 @@
   .abouttext{
     text-align: center;
   }
+
+  .institute{
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .aboutname{
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .abouttype{
+    font-weight: 700;
+    font-size: 16px;
+  }
   /*------------------------------------------Skills--------------------------------------------*/
 
   .three{
@@ -170,6 +185,15 @@ i:before {
   margin-left: 6%;
 }
 
+.gitlinks{
+  padding:10px 24px;
+  background-color: black;
+  color:white;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-left:8%;
+
+}
 
 
 /*------------------------------------------Contact--------------------------------------------*/
