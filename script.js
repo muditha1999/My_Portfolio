@@ -30,3 +30,27 @@ function activeMenu() {
 
 activeMenu();
 window.addEventListener("scroll", activeMenu);
+
+
+//************************************Contact ************************************
+
+function sendMail(){
+    let parms={
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        subject : document.getElementById("subject").value,
+        message : document.getElementById("message").value,
+    };
+
+    emailjs.send("service_wgb8jx1","template_t7zcabf",parms)
+           .then((res)=>{
+                console.log(res)
+                document.getElementById("name").value="";
+                document.getElementById("email").value="";
+                document.getElementById("subject").value="";
+                document.getElementById("message").value="";
+                alert("Email Sent!!")
+           })
+           .catch((err)=>console.log(err));
+
+}

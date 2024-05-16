@@ -7,7 +7,19 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
         
+<!-- ***************************emailjs******************************************************************************************* -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function(){
+                emailjs.init({
+                    publicKey: "Uc2QjoZ_nQTb7jwMq",
+                });
+            })();
+        </script>
+<!-- ****************************************************************************************************************************** -->
+
     </head>
     
     <body>
@@ -219,10 +231,11 @@
                         <h3 class="con">Contact <span style="color:orange">Me</span></h3>
 
                         <form>
-                            <div class="inputbox"><input type="text" size="50" Placeholder="Your Full Name"><br>
-                            <input type="text" size="50" Placeholder="Your E-Mail"></div><br>
-                            <textarea rows="4" cols="52" Placeholder="Your Message"></textarea><br>
-                            <input type="submit" value="submit" class="formbtn">
+                            <div class="inputbox"><input type="text" size="50" Placeholder="Your Full Name" name="name" id="name"><br>
+                            <input type="text" size="50" Placeholder="Your E-Mail"id="email"><br>
+                            <input type="text" size="50" Placeholder="Subject"id="subject"></div><br>
+                            <textarea rows="4" cols="52" Placeholder="Your Message"id="message"></textarea><br>
+                            <input type="submit" onclick="sendMail()" value="submit" class="formbtn">
                         </form>
 
                 </section>
