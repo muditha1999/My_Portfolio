@@ -45,11 +45,12 @@ function sendMail(){
     emailjs.send("service_wgb8jx1","template_t7zcabf",parms)
            .then((res)=>{
                 console.log(res)
+                alert("Email Sent!!")
                 document.getElementById("name").value="";
                 document.getElementById("email").value="";
                 document.getElementById("subject").value="";
                 document.getElementById("message").value="";
-                alert("Email Sent!!")
+                
            })
            .catch((err)=>console.log(err));
 
