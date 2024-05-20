@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Code:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .topnav {
   overflow: hidden;
@@ -16,6 +18,7 @@
     padding: 15px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: poppins;
   }
 
  .navlinks{
@@ -26,13 +29,13 @@
   }
 
 
-.topnav a:hover,.topnav .active a {
+.topnav a:hover,.topnav .active a, .topnav a.myname:hover {
     color: orange;
     
   }
 
 
-  .topnav div.myname {
+  .topnav a.myname {
     float:left;
     color: white;
     font-size: 26px;
@@ -59,12 +62,19 @@
   .hometext2{ 
     font-size: 35px;
   }
+
+  .hometext3{
+    font-family: poppins;
+  }
+
   .cv{
     padding:10px 24px;
     background-color: black;
     color:white;
     border-radius: 8px;
     text-decoration: none;
+    font-family: poppins;
+    text-align: center;
 
   }
 
@@ -74,14 +84,21 @@
     color:white;
     border-radius: 8px;
     text-decoration: none;
+    font-family: poppins;
+    text-align: center;
 
   }
   
 /*------------------------------------------About--------------------------------------------*/
+
+.two{
+  background-color: black;
+}
   .aboutme{
-    text-align: left;
+      text-align: left;
       color: white;
-      
+      font-size: 35px;
+     
   }
 
   .aboutrightside{
@@ -92,6 +109,7 @@
   .aboutpara{
     text-align: left;
     color: white;
+    font-family:Fira Code ;
   }
 
   .me1{
@@ -132,10 +150,12 @@
 
   .BIT{
     margin-left: -16%;
+    margin-top: 5%;
   } 
 
    .pb{
     margin-left: -27%;
+    margin-top: 5%;
   }
   /*------------------------------------------Skills--------------------------------------------*/
 
@@ -167,18 +187,21 @@ i{
   padding-left: 25px;
 }
 
-.skill{
-  
+.skilltitle{
+  font-family: poppins;
+}
+.skill{  
   text-decoration: none;
   font-weight: 700;
   font-size: 17px;
+  font-family: Montserrat;
 }
 
 .skillstate{
     text-decoration: none;
     padding: 4.5em;
     font-weight: 500;
-  
+    font-family: Montserrat;
 }
 
 i:before {
@@ -200,9 +223,10 @@ i:before {
     height: 1000px;
   }
 
-  .four h3{
+  .projects{
     color: white;
     text-align: center;
+    font-size: 35px;
   }
 .p1, .p2, .p3{
   margin-top: 5%;
@@ -211,8 +235,18 @@ i:before {
 
 .pr-text{
   margin-left:8%;
+  font-family:Montserrat;
   
 }
+
+.technology{
+  font-weight: 500;
+}
+
+.projectname{
+  font-weight: 900;
+}
+
 .figma,.portfolio{
   margin-left: 12%;
 }
@@ -227,6 +261,8 @@ i:before {
   border-radius: 8px;
   text-decoration: none;
   margin-left:8%;
+  font-family: poppins;
+  text-align: center;
 
 }
 
@@ -261,6 +297,8 @@ form{
   border-radius: 8px;
   padding: 15px 28px;
   font-weight: 600;
+  font-family: poppins;
+  text-align: center;
 }
 
  /*------------------------------------------Foot--------------------------------------------*/
@@ -275,15 +313,18 @@ form{
 
   color:white;
   text-decoration: none;
-  
+  font-family: poppins;
  }
+
+ .foot2 a:hover{
+  color: orange;
+ }
+
 
  /*-------------------------------------------------------------------------------------------*/
 section{
   height: 100vh;
 }
 
-.two{
-  background-color: black;
-}
+
   

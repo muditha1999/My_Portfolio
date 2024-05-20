@@ -27,7 +27,7 @@
         <script type="text/javascript" src="script.js"></script>
         
             <nav class="topnav">
-                <div class="myname">Udayangani A.A.M</div>
+                <a href="#one" class="myname">Udayangani A.A.M</a>
                 <div class="navlinks">
                     <div class="links"><a href="#one">Home</a></div>
                     <div class="links"><a href="#two">About</a></div>
@@ -54,7 +54,7 @@
                                 <div class="hometext1">Hi</div> <div class="hometext2">I'm <span style="color:orange">Muditha</span><br>
                                 University Undergraduate</div>
                             </div> 
-                            <p>This is my official portfolio shows all <br>the details and experience.</p> <br>
+                            <p class="hometext3">This is my official portfolio shows all <br>the details and experience.</p> <br>
                             <a href="images/Muditha_Udayangani_CV.pdf" class="cv">Download CV</a> &nbsp  <a href="#five" class="contact1">Contact</a>                
                         </div>
                             
@@ -81,7 +81,7 @@
                                     <div class="row mx-lg-n3">
                 
                                         <div class="col-4"><div class="UOK">
-                                            <h3 class="aboutme">About Me</h3>
+                                            <div class="aboutme">About Me</div>
                                             <br><span class="abouttext"><div class="rounded p-2" style="width: 180px; height:230px; background-color:orange">
                                             <i class="fa fa-graduation-cap" aria-hidden="true"></i><br><b><span class="abouttype">Degree</span></b><br><span class="aboutname">Bsc in Physics and Electronics</span>
                                             <span class="institute"><br> University of Kelaniya</span></div></div>
@@ -129,7 +129,7 @@
                             <div class="col-6">
                                 <div class="frontskills">
                                     <div class="rounded"  style="height:350px;width:410px; background-image: url(images/back.avif);">
-                                        <h4><br>Frontend Development<br><br></h4>
+                                        <h4 class="skilltitle"><br>Frontend Development<br><br></h4>
                                         <div class="row">
                                             <div class="col-6">
                                                 <i class="fa fa-certificate" aria-hidden="true"></i><span class="skill">HTML</span><br><span class="skillstate">Experienced</span><br>
@@ -149,7 +149,7 @@
                             <div class="col-6">
                                 <div class="backskills">
                                     <div class="rounded" style="height:350px;width:410px; background-image: url(images/back.avif);">
-                                        <h4><br>Backend Development<br><br></h4>
+                                        <h4 class="skilltitle"><br>Backend Development<br><br></h4>
                                         <div class="row">
                                             <div class="col-6">
                                                 <i class="fa fa-certificate" aria-hidden="true"></i><span class="skill">MySQL</span><br><span class="skillstate">Intermediate</span><br>
@@ -171,7 +171,7 @@
 <!--*********************************************************Projects********************************************************************************-->
                 <section class="four" id="four">
 
-                        <h3><br><br>Projects</h3><br><br>
+                        <div class="projects"><br><br>Projects</div><br><br>
 
 <!--*********************************************************row 1********************************************************************************-->
                         <div class="container px-md-3">
@@ -182,8 +182,8 @@
                                     <div class="figma">
                                         <div class="rounded" style="height:360px;width:350px; background-color:orange">
                                             <img class="p1" src="images/event.png" width="300"height="200"><br><br>
-                                            <div class="pr-text"><h5>Event Manager</h5>
-                                            Figma</div>
+                                            <div class="pr-text"><h5 class="projectname">Event Manager</h5>
+                                            <div class="technology">Figma</div></div>
                                         </div>
                                     </div>
                                 </div>
@@ -194,8 +194,8 @@
                                     <div class="burger">
                                         <div class="rounded" style="height:360px;width:350px; background-color:orange">
                                             <img class="p2" src="images/burger.png" width="300"height="200"><br><br>
-                                            <div class="pr-text"><h5>Mr Burger</h5>
-                                            Java|My SQL|Net Beans</div>
+                                            <div class="pr-text"><h5 class="projectname">Mr Burger</h5>
+                                                <div class="technology">Java | My SQL | Net Beans</div></div>
                                             <br>
                                             <a href="https://github.com/costproject/MrBurger.git" class="gitlinks">GitHub</a>
                                         </div>
@@ -207,8 +207,8 @@
                                 <div class="col-4">
                                     <div class="rounded" style="height:360px; width:350px; background-color:orange">
                                         <img class="p3" src="images/centrifuge.png" width="300"height="200"><br><br>
-                                        <div class="pr-text"><h5>Temperature Controlling System</h5>
-                                        Arduino</div>
+                                        <div class="pr-text"><h5 class="projectname">Temperature Controlling System</h5>
+                                            <div class="technology">Arduino</div></div>
                                     </div>
                                 </div>
                                         
@@ -221,8 +221,8 @@
                                     <div class="portfolio">
                                         <div class="rounded" style="height:360px;width:350px; background-color:orange">
                                             <img class="p1" src="images/portfolio.png" width="300"height="200"><br><br>
-                                            <div class="pr-text"><h5>My Portfolio(This Website)</h5>
-                                            Html|CSS|Bootstrap</div>
+                                            <div class="pr-text"><h5 class="projectname">My Portfolio(This Website)</h5>
+                                                <div class="technology">Html | CSS | Bootstrap</div></div>
                                             <br>
                                             <a href="https://github.com/muditha1999/My_Portfolio" class="gitlinks">GitHub</a>
                                         </div>
@@ -242,7 +242,7 @@
                             <input type="text" size="50" Placeholder="Your E-Mail"id="email"><br>
                             <input type="text" size="50" Placeholder="Subject"id="subject"></div><br>
                             <textarea rows="4" cols="52" Placeholder="Your Message"id="message"></textarea><br>
-                            <input type="submit" onclick="sendMail()" value="submit" class="formbtn">
+                            <input type="submit" onclick="sendMail()" value="Submit" class="formbtn">
                         </form>
                 </section>
 
