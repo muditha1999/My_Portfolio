@@ -154,6 +154,7 @@
   /*------------------------------------------Skills--------------------------------------------*/
 .three{
   padding-bottom: 120px;
+  padding-left: 300px;
 }
 
 .sk{
@@ -163,6 +164,7 @@
   font-family: Ubuntu Sans Mono;
   font-weight: 400;
   font-size: 50px;
+  padding-right: 250px;
 }
 
 .l{
