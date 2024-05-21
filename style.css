@@ -45,6 +45,10 @@
 
 
 /*------------------------------------------Home--------------------------------------------*/
+.one{
+  padding-bottom: 100px;
+}
+
 .me2{
   margin-top: 14%;
 }
@@ -68,13 +72,14 @@
   }
 
   .cv{
-    padding:10px 24px;
+    padding:10px 24px ;
     background-color: black;
     color:white;
     border-radius: 8px;
     text-decoration: none;
     font-family: poppins;
     text-align: center;
+
 
   }
 
@@ -88,11 +93,14 @@
     text-align: center;
 
   }
+
+ 
   
 /*------------------------------------------About--------------------------------------------*/
 
 .two{
   background-color: black;
+  padding-bottom: 100px;
 }
   .aboutme{
       text-align: left;
@@ -102,9 +110,9 @@
   }
 
   .aboutrightside{
-    margin-top: 12%;
+    padding-top: 80px;
+    
   }
-  
 
   .aboutpara{
     text-align: left;
@@ -112,9 +120,11 @@
     font-family:Fira Code ;
   }
 
+.aboutleftside{
+  padding-top: 170px;
+  padding-left: 100px;
+}
   .me1{
-    margin-top: 20%;
-    margin-left: 10%;
     box-shadow:0 0 25px orange,
                0 0 50px orange;
     border-radius: 50%;
@@ -144,25 +154,32 @@
     font-size: 16px;
   }
 
-  .UOK{
-    margin-left: -8%;
-  }
 
-  .BIT{
-    margin-left: -16%;
-    margin-top: 5%;
-  } 
 
-   .pb{
-    margin-left: -27%;
-    margin-top: 5%;
+
+  /* @media screen and(max-width:980px){
+    .two.UOK,.two.BIT,.two.pb{
+      margin-bottom 2px;
+      flex-basis: 40%;
+    } 
+    .two .pb{
+      flex-basis: 100%;
+      margin: 0;
+    }
+    .two .BIT{
+      margin-right: 0;
+    }
   }
+  @media screen and(max-width:680px){
+    .two.UOK,.two.BIT,.two.pb{
+      margin:0 0 5px 0;
+      flex-basis: 100%;
+    }
+  } */
   /*------------------------------------------Skills--------------------------------------------*/
-
-  .three{
-    min-height: 700px;
-    height: 700px;
-  }
+.three{
+  padding-bottom: 120px;
+}
 
 .sk{
   text-align: center;
@@ -205,22 +222,18 @@ i{
 }
 
 i:before {
-  margin-right:1em
+  margin-right:1em;
 }
 
 .frontskills{
-  margin-left: 33%;
+  margin-bottom: 10%;
 }
-
-.backskills{
-  margin-left: 2%;
-}
-
   /*------------------------------------------Projects--------------------------------------------*/
   .four{
     background-color: black;
-    min-height: 1000px;
-    height: 1000px;
+    /* min-height: 1000px;
+    height: 1000px; */
+    padding-bottom: 10px;
   }
 
   .projects{
@@ -228,13 +241,9 @@ i:before {
     text-align: center;
     font-size: 35px;
   }
-.p1, .p2, .p3{
-  margin-top: 5%;
-  margin-left:8%;
-}
 
 .pr-text{
-  margin-left:8%;
+  padding-left:px;
   font-family:Montserrat;
   
 }
@@ -247,12 +256,11 @@ i:before {
   font-weight: 900;
 }
 
-.figma,.portfolio{
-  margin-left: 12%;
+.figma,.portfolio,.burger,.elec,.portfolio{
+  margin-bottom: 10%;
+ 
 }
-.burger{
-  margin-left: 6%;
-}
+
 
 .gitlinks{
   padding:10px 24px;
@@ -260,10 +268,13 @@ i:before {
   color:white;
   border-radius: 8px;
   text-decoration: none;
-  margin-left:8%;
   font-family: poppins;
   text-align: center;
 
+}
+
+.projectbox{
+  padding: 15px 10px 10px 25px;
 }
 
 
@@ -323,7 +334,8 @@ form{
 
  /*-------------------------------------------------------------------------------------------*/
 section{
-  height: 100vh;
+  /* height: 100vh; */
+  padding: 10px 10px 10px 10px;
 }
 
 

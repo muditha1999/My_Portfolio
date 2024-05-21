@@ -3,12 +3,12 @@
 
         <title>My Portfolio</title>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
-        
+        <meta name="viewport"content="width=device-width.initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <!-- ***************************emailjs******************************************************************************************* -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
         <script type="text/javascript">
@@ -55,7 +55,7 @@
                                 University Undergraduate</div>
                             </div> 
                             <p class="hometext3">This is my official portfolio shows all <br>the details and experience.</p> <br>
-                            <a href="images/Muditha_Udayangani_CV.pdf" class="cv">Download CV</a> &nbsp  <a href="#five" class="contact1">Contact</a>                
+                            <a href="images/Muditha_Udayangani_CV.pdf" class="cv">Download CV</a>&nbsp <a href="#five" class="contact1">Contact</a>                
                         </div>
                             
                         <div class="col-5">
@@ -66,54 +66,57 @@
                 </section>
 <!--******************************************************About***********************************************************************************-->
                 <section class="two" id="two">
+                    <div class="container-fluid">
                    
-                    <div class="row">
+                        <div class="row">
 
-                        <div class="col-1"></div>
+                            <div class="col-1"></div>
 
-                        <div class="col-5">
-                            <img src="images/me1.jpeg" width ="300px" height="300px" class="me1">          
-                        </div>
-                    
-                        <div class="col-6">
-                            <div class="aboutrightside">
-                                <div class="containter px-md-3">
-                                    <div class="row mx-lg-n3">
-                
-                                        <div class="col-4"><div class="UOK">
-                                            <div class="aboutme">About Me</div>
-                                            <br><span class="abouttext"><div class="rounded p-2" style="width: 180px; height:230px; background-color:orange">
-                                            <i class="fa fa-graduation-cap" aria-hidden="true"></i><br><b><span class="abouttype">Degree</span></b><br><span class="aboutname">Bsc in Physics and Electronics</span>
-                                            <span class="institute"><br> University of Kelaniya</span></div></div>
-                                        </div></span>
-
-                                        <div class="col-4"><div class="BIT">
-                                            <h3><br></h3><br><span class="abouttext"><div class="rounded p-2" style="width: 180px;height:230px; background-color:orange">
-                                            <i class="fa fa-graduation-cap" aria-hidden="true"></i><br><b><span class="abouttype">Degree</span></b><br><span class="aboutname">Bachelor of Information Technology</span> <br>
-                                            <span class="institute">University of Colombo School of Computing</span></div></span></div>
-                                        </div>
-
-                                        <div class="col-4"><div class="pb">
-                                            <h3><br></h3><br><span class="abouttext"><div class="rounded p-2" style="width: 180px;height:230px; background-color:orange">
-                                            <i class="fa fa-shopping-bag" aria-hidden="true"></i><br><b><span class="abouttype">Experience</span></b><br><span class="aboutname">Trainee Banking Assistant</span> <br>
-                                            <span class="institute">Peoples' Bank</span></div></span></div>
-                                        </div>
-
-                                    </div><br>
-                                </div>
-
-                                    <div class="col-10">
-                                        <p class="aboutpara">I am an honest, responsible, self motivated undergraduate aspiring the graduation in  Physics 
-                                            and Electronics degree program and also following BIT degree program. My academic background has sharpened my analytical & problem solving 
-                                            skills. I am looking for opportunities to apply my skills in a dynamic environment.</p>  
-                                            <div class="social"><a href="https://www.linkedin.com/in/muditha-udayangani"target="_blank"><img src="images/social.png"width="42" height="42"></a>
-                                            <a href="https://github.com/muditha1999"target="_blank"><img src="images/git.png"width="42" height="42"></a></div>
-                                    </div>
+                            <div class="aboutleftside col-5">
+                                <img src="images/me1.jpeg" width ="300px" height="300px" class="me1">          
                             </div>
-                            
-                        </div>
                         
- 
+                            <div class="col-6">
+                                <div class="aboutrightside">
+                                    <div class="containter  px-5"> <!--px-5 for change gutters in large size-->
+                                        <div class="row"><div class="col-6 col-12"><div class="aboutme">About Me</div></div></div>
+                                        <div class="row align-items-start -gx-5"> <!--gx-5 for change gutters-->
+                    
+                                            <div class="col-6 col-md-4 col-sm-12"><div class="UOK">
+                                                <br><span class="abouttext"><div class="rounded p-2" style="width: 180px; height:230px; background-color:orange">
+                                                <i class="fa fa-graduation-cap" aria-hidden="true"></i><br><b><span class="abouttype">Degree</span></b><br><span class="aboutname">Bsc in Physics and Electronics</span>
+                                                <span class="institute"><br> University of Kelaniya</span></div></div>
+                                            </span></div>
+
+                                            <div class="col-6 col-md-4 col-sm-12"><div class="BIT">
+                                                <br><span class="abouttext"><div class="rounded p-2" style="width: 180px;height:230px; background-color:orange">
+                                                <i class="fa fa-graduation-cap" aria-hidden="true"></i><br><b><span class="abouttype">Degree</span></b><br><span class="aboutname">Bachelor of Information Technology</span> <br>
+                                                <span class="institute">University of Colombo School of Computing</span></div></span></div>
+                                            </div>
+
+                                            <div class="col-6 col-md-4 col-sm-12"><div class="pb">
+                                                <br><span class="abouttext"><div class="rounded p-2" style="width: 180px;height:230px; background-color:orange">
+                                                <i class="fa fa-shopping-bag" aria-hidden="true"></i><br><b><span class="abouttype">Experience</span></b><br><span class="aboutname">Trainee Banking Assistant</span> <br>
+                                                <span class="institute">Peoples' Bank</span></div></span></div>
+                                            </div>
+
+                                        </div><br>
+                                    </div>
+                                    <div class="container px-5">
+                                        <div class="row">
+                                            <div class="col-6 col-md-12">
+                                                <p class="aboutpara">I am an honest, responsible, self motivated undergraduate aspiring the graduation in  Physics 
+                                                    and Electronics degree program and also following BIT degree program. My academic background has sharpened my analytical & problem solving 
+                                                    skills. I am looking for opportunities to apply my skills in a dynamic environment.</p>  
+                                                    <div class="social"><a href="https://www.linkedin.com/in/muditha-udayangani"target="_blank"><img src="images/social.png"width="42" height="42"></a>
+                                                    <a href="https://github.com/muditha1999"target="_blank"><img src="images/git.png"width="42" height="42"></a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                     
@@ -123,10 +126,11 @@
                     
                     <div class="sk">Skil<span class="l">l</span>s</div>
 
-                    <div class="container px-md-3">
-                        <div class="row mx-lg-n3">
+                    <div class="container px-3">
+                        <div class="row -gx-5">
 
-                            <div class="col-6">
+                            <div class="col-md-2"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="frontskills">
                                     <div class="rounded"  style="height:350px;width:410px; background-image: url(images/back.avif);">
                                         <h4 class="skilltitle"><br>Frontend Development<br><br></h4>
@@ -146,7 +150,7 @@
                             </div>
 
   
-                            <div class="col-6">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
                                 <div class="backskills">
                                     <div class="rounded" style="height:350px;width:410px; background-image: url(images/back.avif);">
                                         <h4 class="skilltitle"><br>Backend Development<br><br></h4>
@@ -169,68 +173,76 @@
 
                 </section>
 <!--*********************************************************Projects********************************************************************************-->
-                <section class="four" id="four">
+<section class="four" id="four">
 
-                        <div class="projects"><br><br>Projects</div><br><br>
+    <div class="projects"><br><br>Projects</div><br><br>
 
 <!--*********************************************************row 1********************************************************************************-->
-                        <div class="container px-md-3">
-                            <div class="row mx-lg-n3">
+    <div class="container px-md-3">
+        <div class="row mx-lg-n3">
 
-                            
-                                <div class="col-4">
-                                    <div class="figma">
-                                        <div class="rounded" style="height:360px;width:350px; background-color:orange">
-                                            <img class="p1" src="images/event.png" width="300"height="200"><br><br>
-                                            <div class="pr-text"><h5 class="projectname">Event Manager</h5>
-                                            <div class="technology">Figma</div></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                                
+        
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="figma">
+                    <div class="rounded projectbox" style="height:360px;width:350px; background-color:orange">
+                        <img class="p1" src="images/event.png" width="300"height="200"><br><br>
+                        <div class="pr-text"><h5 class="projectname">Event Manager</h5>
+                        <div class="technology">Figma</div></div>
+                    </div>
+                </div>
+            </div>
+        
+            
 
-                                <div class="col-4">
-                                    <div class="burger">
-                                        <div class="rounded" style="height:360px;width:350px; background-color:orange">
-                                            <img class="p2" src="images/burger.png" width="300"height="200"><br><br>
-                                            <div class="pr-text"><h5 class="projectname">Mr Burger</h5>
-                                                <div class="technology">Java | My SQL | Net Beans</div></div>
-                                            <br>
-                                            <a href="https://github.com/costproject/MrBurger.git" class="gitlinks">GitHub</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="burger">
+                    <div class="rounded projectbox" style="height:360px;width:350px; background-color:orange">
+                        <img class="p2" src="images/burger.png" width="300"height="200"><br><br>
+                        <div class="pr-text"><h5 class="projectname">Mr Burger</h5>
+                            <div class="technology">Java | My SQL | Net Beans</div></div>
+                        <br>
+                        <a href="https://github.com/costproject/MrBurger.git" class="gitlinks">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            
 
-                                <div class="col-4">
-                                    <div class="rounded" style="height:360px; width:350px; background-color:orange">
-                                        <img class="p3" src="images/centrifuge.png" width="300"height="200"><br><br>
-                                        <div class="pr-text"><h5 class="projectname">Temperature Controlling System</h5>
-                                            <div class="technology">Arduino</div></div>
-                                    </div>
-                                </div>
-                                        
-                            </div>
-                        </div><br>
- <!--*********************************************************row 2********************************************************************************-->
-                        <div class="container px-md-3">
-                            <div class="row mx-lg-n3">                    
-                                <div class="col-4">
-                                    <div class="portfolio">
-                                        <div class="rounded" style="height:360px;width:350px; background-color:orange">
-                                            <img class="p1" src="images/portfolio.png" width="300"height="200"><br><br>
-                                            <div class="pr-text"><h5 class="projectname">My Portfolio(This Website)</h5>
-                                                <div class="technology">Html | CSS | Bootstrap</div></div>
-                                            <br>
-                                            <a href="https://github.com/muditha1999/My_Portfolio" class="gitlinks">GitHub</a>
-                                        </div>
-                                    </div><br>
-                                </div>            
-                            </div>
-                        </div>
-                </section>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="elec">
+                    <div class="rounded projectbox" style="height:360px; width:350px; background-color:orange">
+                        <img class="p3" src="images/centrifuge.png" width="300"height="200"><br><br>
+                        <div class="pr-text"><h5 class="projectname">Temperature Controlling System</h5>
+                            <div class="technology">Arduino</div></div>
+                    </div>
+                </div>
+                
+            </div>
+                    
+        </div>
+    <br>
+<!--*********************************************************row 2********************************************************************************-->
+    <!-- <div class="container px-md-3"> -->
+        <div class="row mx-lg-n3">                    
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="portfolio">
+                    <div class="rounded projectbox" style="height:360px;width:350px; background-color:orange">
+                        <img class="p1" src="images/portfolio.png" width="300"height="200"><br><br>
+                        <div class="pr-text"><h5 class="projectname">My Portfolio(This Website)</h5>
+                            <div class="technology">Html | CSS | Bootstrap</div></div>
+                        <br>
+                        <a href="https://github.com/muditha1999/My_Portfolio" class="gitlinks">GitHub</a>
+                    </div>
+                </div><br>
+            </div>            
+        </div>
+    <!-- </div> -->
+    </div>
+</section>
+
+
+
+
 
 <!--*********************************************************Contact********************************************************************************-->
                 <section class="five" id="five">
@@ -241,7 +253,7 @@
                             <div class="inputbox"><input type="text" size="50" Placeholder="Your Full Name" name="name" id="name"><br>
                             <input type="text" size="50" Placeholder="Your E-Mail"id="email"><br>
                             <input type="text" size="50" Placeholder="Subject"id="subject"></div><br>
-                            <textarea rows="4" cols="52" Placeholder="Your Message"id="message"></textarea><br>
+                            <textarea rows="4" cols="60" Placeholder="Your Message"id="message"></textarea><br><br>
                             <input type="submit" onclick="sendMail()" value="Submit" class="formbtn">
                         </form>
                 </section>
