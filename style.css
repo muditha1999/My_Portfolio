@@ -72,15 +72,13 @@
   }
 
   .cv{
-    padding:10px 24px ;
+    padding:10px 24px;
     background-color: black;
     color:white;
     border-radius: 8px;
     text-decoration: none;
     font-family: poppins;
     text-align: center;
-
-
   }
 
   .contact1{
@@ -91,11 +89,10 @@
     text-decoration: none;
     font-family: poppins;
     text-align: center;
-
   }
 
  
-  
+ 
 /*------------------------------------------About--------------------------------------------*/
 
 .two{
@@ -154,28 +151,6 @@
     font-size: 16px;
   }
 
-
-
-
-  /* @media screen and(max-width:980px){
-    .two.UOK,.two.BIT,.two.pb{
-      margin-bottom 2px;
-      flex-basis: 40%;
-    } 
-    .two .pb{
-      flex-basis: 100%;
-      margin: 0;
-    }
-    .two .BIT{
-      margin-right: 0;
-    }
-  }
-  @media screen and(max-width:680px){
-    .two.UOK,.two.BIT,.two.pb{
-      margin:0 0 5px 0;
-      flex-basis: 100%;
-    }
-  } */
   /*------------------------------------------Skills--------------------------------------------*/
 .three{
   padding-bottom: 120px;
